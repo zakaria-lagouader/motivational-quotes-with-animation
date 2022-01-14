@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quote App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <h1 id="quote"></h1>
+            <p id="auth"></p>
+        </div>
+
+        <div class="btns">
+            <button onclick="pickRandomQuote()">next</button>
+        </div>
+    </div>
+
+    <button id="mode" onclick="toggle()">
+        <img src="img/brightness.svg" alt="">
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
