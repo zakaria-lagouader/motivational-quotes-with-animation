@@ -96,6 +96,6 @@ function hideBtn() {
 
 
 async function getQuotes() {
-    const res = fetch('/quotes.json');
+    const res = fetch('quotes.json');
     return (await res).json();
 }
